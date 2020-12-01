@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<h2>Gallery</h2>
+<h2>"Perfect View"</h2>
+
+
+<div class="row">
+  <div class="column">
+    <img src="pic_ammar.jpeg" alt="Ammar" style="width:80%">
+  </div>
+  <div class="column">
+    <img src="pic_ammar2.jpeg" alt="Ammar2" style="width:80%">
+  </div>
+  <div class="column">
+    <img src="pic_ammar3.jpeg" alt="Ammar3" style="width:80%">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src="pic_ammar4.jpeg" alt="Ammar4" style="width:80%">
+  </div>
+  <div class="column">
+    <img src="pic_ammar5.jpeg" alt="Ammar5" style="width:80%">
+  </div>
+  <div class="column">
+    <img src="pic_ammar6.jpeg" alt="Ammar6" style="width:80%">
+  </div>
+</div>
+
+</body>
+</html>
